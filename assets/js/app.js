@@ -19,6 +19,10 @@ window.$ = $;
 // the bootstrap module doesn't export/return anything
 require('bootstrap');
 
+
+
+
+
 // create global $ and jQuery variables
 //global.$ = global.jQuery = $;
 
@@ -27,12 +31,10 @@ require('bootstrap');
  //require('bootstrap/js/dist/popover');
 
 
-//Chartist charts
 
 $(document).ready(function() {
     $('[data-toggle="popover"]').popover();
 
-    console.log('Hello World!');
 
     $('.app-chartist').each(function(){
         let url = $(this).data('url');
