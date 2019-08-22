@@ -2,39 +2,87 @@
 
 namespace App\Controller;
 
+use App\Repository\LocationRepository;
+use App\Repository\MinuteEntryRepository;
+use App\Services\JSONParser;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
-class OccupancyDataController extends AbstractController
+class DataController extends AbstractController
 {
     /**
-     * @Route("/occupancy_data/{location}/{date}", name="occupancy_data")
+     * @Route("/data/{location}/{date}", name="data")
      */
-    public function index(string $date, string $location)
+    public function index(string $date, string $location, JSONParser $parser, MinuteEntryRepository $minuteEntryRepository, LocationRepository $locationRepository)
     {
+        $labels = [];
+        $data = [];
 
-        $month = date("m",strtotime($date));
 
-        $path = '/../../test_data/'.$location.'/'.$month.'/'.$date.'.json';
+        $DB = true;
+        if ($DB) {
 
-        $data = json_decode(file_get_contents(__DIR__ . $path), true);
+            $location = $locationRepository->findOneBy(['name' => $location]);
+            $date = new \DateTime($date);
 
-        $timestamps = [];
-        $occupancies = [];
+            $out = $minuteEntryRepository->findByDay($location, $date);
 
-        foreach ($data['data'] as $entry) {
+            foreach ($out as $entry) {
+                array_push($labels, $entry['time']);
+                array_push($data, $entry['occupancy']);
+            }
 
-            // not rly necessary
-            $timestamp = new \DateTime($entry['datetime']['date']);
-            $time = $timestamp->format("H:i");
-
-            array_push($timestamps, $time);
-            array_push($occupancies, $entry['occupancy']);
+        } else {
+            $month = date("m", strtotime($date));
+            $path = '/../../test_data/' . $location . '/' . $month . '/' . $date . '.json';
+            $parser->setPath($path);
+            $parser->parse();
+            $labels = $parser->getTimeStamps();
+            $data = $parser->getOccupancies();
         }
 
         return $this->json([
-            'labels' => $timestamps,
-            'series' => [array('name' => 'occupancy', 'data' => $occupancies)]
+            'labels' => $labels,
+            'series' => [array('name' => 'occupancy', 'data' => $data)]
         ]);
+
+    }
+
+    /**
+     * @Route("/range_stats/{location}/{from}/{to}", name="range_stats")
+     */
+    public function rangeStats(string $location, string $from, string $to, MinuteEntryRepository $minuteEntryRepository, LocationRepository $locationRepository)
+    {
+
+        $location = $locationRepository->findOneBy(['name' => $location]);
+        $from = new \DateTime($from . ' 08:00:00');
+        $to = new \DateTime($to . ' 18:00:00');
+        $data = $minuteEntryRepository->findByLocationInRange($location, $from, $to);
+
+        // data to pass as json to Chartist
+        $timestamps = [];
+        $max = [];
+        $min = [];
+        $avg = [];
+
+        foreach ($data as $entry) {
+            array_push($timestamps, $entry['time']);
+
+            array_push($max, $entry['max']);
+            array_push($min, $entry['min']);
+            array_push($avg, $entry['avg']);
+
+            //array_push($max, ($entry['max']/$location->getMaxOccupancy()));
+            //array_push($min, ($entry['min']/$location->getMaxOccupancy()));
+            //array_push($avg, ($entry['avg']/$location->getMaxOccupancy()));
+        }
+
+
+        return $this->json([
+            'labels' => $timestamps,
+            'series' => [array('name' => 'average', 'data' => $avg), array('name' => 'max', 'data' => $max), array('name' => 'min', 'data' => $min)]
+        ]);
+
+
     }
 }
