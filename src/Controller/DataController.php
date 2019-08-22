@@ -5,39 +5,36 @@ namespace App\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
-class DataController extends AbstractController
+class OccupancyDataController extends AbstractController
 {
     /**
-     * @Route("/data/", name="data")
+     * @Route("/occupancy_data/{location}/{date}", name="occupancy_data")
      */
-    public function index()
+    public function index(string $date, string $location)
     {
-        $data = json_decode(file_get_contents(__DIR__ . '/../../example.json'), true);
 
-        $result = ['label' => [], 'series' => []];
+        $month = date("m",strtotime($date));
 
-        foreach($data['data'] as $entry){
-            //$timestamp = new \DateTime($entry['datetime']['date']);
+        $path = '/../../test_data/'.$location.'/'.$month.'/'.$date.'.json';
 
-            //dump($timestamp->format('H:i'));
-            //exit;
+        $data = json_decode(file_get_contents(__DIR__ . $path), true);
+
+        $timestamps = [];
+        $occupancies = [];
+
+        foreach ($data['data'] as $entry) {
+
+            // not rly necessary
+            $timestamp = new \DateTime($entry['datetime']['date']);
+            $time = $timestamp->format("H:i");
+
+            array_push($timestamps, $time);
+            array_push($occupancies, $entry['occupancy']);
         }
 
         return $this->json([
-            'labels' => [
-                'Mon',
-                'Tue',
-                'Wed',
-                'Thu',
-                'Fri',
-                'Sat',
-                'Sun',
-            ],
-            'series' => [
-                [5, 2, 10, 2, 0, 0, 20],
-
-            ]
-
+            'labels' => $timestamps,
+            'series' => [array('name' => 'occupancy', 'data' => $occupancies)]
         ]);
     }
 }
