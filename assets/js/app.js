@@ -39,36 +39,60 @@ require('bootstrap');
 $(document).ready(function () {
     let calendarUrl = "/data";
     let trendsUrl = "/range_stats";
+    let weekDayUrl = "/week_day_range_stats";
     let currentLocation = '/von_roll';
     let currentDate = '2019-07-07';
     let currentRange = '2019-07-07 - 2019-07-08';
-    let isCalendar = true;
+    let subPage = '/c';
 
     singleDatePicker();
 
     $('#location_menu a').click(function(event){
         event.preventDefault();
         currentLocation = $(this).attr('href');
-        if(isCalendar) {
-            createCalendarChart();
-        }else{
-            createTrendsChart();
+
+        switch(subPage){
+            case '/c':
+                singleDatePicker();
+                createCalendarChart();
+                break;
+            case '/t':
+                rangeDatePicker();
+                createTrendsChart();
+                break;
+            case '/d':
+                rangeDatePicker();
+                createWeekDayChart();
+                break;
         }
+        $('.table-active').removeClass('table-active');
+        $('#' + subPage.substring(1)).addClass('table-active');
+        $('#' + currentLocation.substring(1)).addClass('table-active');
     });
 
 
     $('#kal_trends a').click(function(event){
         event.preventDefault();
+        subPage = $(this).attr('href');
 
-        isCalendar = ($(this).attr('href') === '/calendar');
-
-        if(isCalendar){
-            singleDatePicker();
-            createCalendarChart();
-        }else{
-            rangeDatePicker();
-            createTrendsChart();
+        switch(subPage){
+            case '/c':
+                singleDatePicker();
+                createCalendarChart();
+                break;
+            case '/t':
+                rangeDatePicker();
+                createTrendsChart();
+                break;
+            case '/d':
+                rangeDatePicker();
+                createWeekDayChart();
+                break;
         }
+
+        $('.table-active').removeClass('table-active');
+        $('#' + currentLocation.substring(1)).addClass('table-active');
+        $('#' + subPage.substring(1)).addClass('table-active');
     });
 
 
@@ -93,6 +117,9 @@ $(document).ready(function () {
                         return index % 60 === 0 ? value : null;
                     }
                 },
+            plugins: [Chartist.plugins.legend()]
+        },
+        'graphC' : {
             plugins: [Chartist.plugins.legend()]
         }
     };
@@ -127,11 +154,29 @@ $(document).ready(function () {
         }
     }
 
+
+    function createWeekDayChart(){
+        if(currentDate != null && currentLocation != null) {
+            range = currentRange.split(' - ');
+            let url = weekDayUrl + currentLocation + '/' + range[0] + '/' + range[1];
+
+            $('.app-chartist').each(function () {
+                let el = $(this)[0];
+                let option = options['graphC'];
+                $.get({url: url, cache: false}, function (data) {
+                    new Chartist.Bar(el, data, option);
+                });
+            });
+        }
+    }
+
     function singleDatePicker(){
         $('#picker').daterangepicker({
             singleDatePicker: true,
             showDropdowns: true,
             timePicker24Hour: true,
+            startDate: currentDate,
+            endDate: currentDate,
             locale: {
                 format: 'YYYY-MM-DD'
             }
@@ -139,10 +184,13 @@ $(document).ready(function () {
     }
 
     function rangeDatePicker(){
+
+        range = currentRange.split(' - ');
+
         $('#picker').daterangepicker({
             autoApply: true,
-            startDate: '2019/07/07',
-            endDate: '2019/07/08',
+            startDate: range[0],
+            endDate: range[1],
             locale: {
                 format: 'YYYY-MM-DD'
             }
@@ -151,12 +199,19 @@ $(document).ready(function () {
 
 
     $("#picker").change(function(){
-        if (isCalendar) {
-            currentDate = $("#picker").val();
-            createCalendarChart();
-        }else{
-            currentRange = $("#picker").val();
-            createTrendsChart();
+        switch(subPage){
+            case '/c':
+                currentDate = $("#picker").val();
+                createCalendarChart();
+                break;
+            case '/t':
+                currentRange = $("#picker").val();
+                createTrendsChart();
+                break;
+            case '/d':
+                currentRange = $("#picker").val();
+                createWeekDayChart();
+                break;
         }
     });
 });
