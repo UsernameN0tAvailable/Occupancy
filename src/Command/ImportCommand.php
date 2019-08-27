@@ -38,7 +38,8 @@ class ImportCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $locations = ['bmu_og', 'bmu_ug', 'bto', 'jbb', 'von_roll'];
+        //$locations = ['bmu_og', 'bmu_ug', 'bto', 'jbb', 'von_roll'];
+        $locations = ['bmu_ug'];
         $base_path = '/../../test_data/';
 
 
@@ -57,7 +58,7 @@ class ImportCommand extends Command
 
 
             // for each day in the month
-            for($i = 1; $i <= 31; $i++){
+            for($i = 27; $i <= 27; $i++){
 
 
 
@@ -68,7 +69,7 @@ class ImportCommand extends Command
                 }
 
 
-                $path = $base_path.$location.'/07/2019-07-'.$day.'.json';
+                $path = $base_path.$location.'/08/2019-08-'.$day.'.json';
 
                 $this->jsonParser = new JSONParser();
                 $this->jsonParser->setPath($path);

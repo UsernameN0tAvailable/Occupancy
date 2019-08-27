@@ -10,8 +10,9 @@ require('../css/app.scss');
 require('chartist/dist/chartist.css');
 require('chartist-plugin-legend');
 require('daterangepicker');
-require('daterangepicker/daterangepicker.css')
+require('daterangepicker/daterangepicker.css');
 require('popper.js');
+
 const Chartist = require('chartist');
 window.Chartist = Chartist;
 
@@ -41,9 +42,18 @@ $(document).ready(function () {
     let trendsUrl = "/range_stats";
     let weekDayUrl = "/week_day_range_stats";
     let currentLocation = '/von_roll';
-    let currentDate = '2019-07-07';
     let currentRange = '2019-07-07 - 2019-07-08';
     let subPage = '/c';
+    let currentDate = '';
+
+    // get today's date
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    var yyyy = today.getFullYear();
+
+    today = yyyy + '-' + mm +  '-' + dd;
+    currentDate = today;
 
     singleDatePicker();
 
@@ -53,6 +63,7 @@ $(document).ready(function () {
 
         switch(subPage){
             case '/c':
+                currentDate = today;
                 singleDatePicker();
                 createCalendarChart();
                 break;
@@ -102,7 +113,7 @@ $(document).ready(function () {
             axisX:
                 {
                     labelInterpolationFnc: function skipLabels(value, index) {
-                        return index % 60 === 0 ? value : null;
+                        return index % 60 === 0 ? value.substring(0, value.length - 6) : null;
                     }
                 },
             plugins: [Chartist.plugins.legend()]

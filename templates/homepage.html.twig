@@ -23,12 +23,12 @@
 </nav>
 
 <div class="container mt-5 mb-5" style="width: 400px">
-    <input type="text" id="picker" class="form-control">
+    <input type="text" id="picker" class="form-control" autocomplete="off" readonly="readonly">
 </div>
 
 
-<div class="container col-lg-5">
-    <div id="main_graph" style="height:500px" class="app-chartist"
+<div class="container">
+    <div id="main_graph" class="app-chartist" style="height: 500px;"
          data-option="graphA"></div>
 </div>
 
@@ -36,6 +36,15 @@
 {% block javascript %}
 {% endblock %}
 </body>
+
+
+<style>
+    .no-padding{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+</style>
+
 </html>
 
 

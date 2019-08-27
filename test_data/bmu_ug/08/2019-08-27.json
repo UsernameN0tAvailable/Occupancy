@@ -1,0 +1,1869 @@
+{
+  "date": "2019-08-27",
+  "location": {
+    "id": "21",
+    "name": "Bibliothek vonRoll"
+  },
+  "data": [
+    {
+      "datetime": {
+        "date": "2019-08-27 08:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 0,
+      "total_in": 0,
+      "total_out": 0
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:01:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 0,
+      "total_in": 0,
+      "total_out": 0
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:02:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 0,
+      "total_in": 0,
+      "total_out": 0
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:03:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 1,
+      "total_in": 1,
+      "total_out": 0
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:04:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 3,
+      "total_in": 3,
+      "total_out": 0
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:05:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 3,
+      "total_in": 3,
+      "total_out": 0
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:06:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 5,
+      "total_in": 5,
+      "total_out": 0
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:07:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 1,
+      "total_in": 5,
+      "total_out": 4
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:08:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 1,
+      "total_in": 5,
+      "total_out": 4
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:09:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 2,
+      "total_in": 6,
+      "total_out": 4
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:10:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 2,
+      "total_in": 6,
+      "total_out": 4
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:11:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 2,
+      "total_in": 6,
+      "total_out": 4
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:12:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 4,
+      "total_in": 8,
+      "total_out": 4
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:13:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 5,
+      "total_in": 9,
+      "total_out": 4
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:14:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 6,
+      "total_in": 10,
+      "total_out": 4
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:15:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 2,
+      "total_in": 10,
+      "total_out": 8
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:16:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 1,
+      "total_in": 10,
+      "total_out": 9
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:17:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 1,
+      "total_in": 10,
+      "total_out": 9
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:18:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 1,
+      "total_in": 10,
+      "total_out": 9
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:19:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 2,
+      "total_in": 11,
+      "total_out": 9
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:20:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 4,
+      "total_in": 13,
+      "total_out": 9
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:21:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 1,
+      "total_in": 13,
+      "total_out": 12
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:22:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 4,
+      "total_in": 16,
+      "total_out": 12
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:23:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 2,
+      "total_in": 16,
+      "total_out": 14
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:24:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 4,
+      "total_in": 18,
+      "total_out": 14
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:25:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 0,
+      "total_in": 18,
+      "total_out": 18
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:26:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 1,
+      "total_in": 19,
+      "total_out": 18
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:27:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 1,
+      "total_in": 19,
+      "total_out": 18
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:28:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 5,
+      "total_in": 23,
+      "total_out": 18
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:29:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 3,
+      "total_in": 23,
+      "total_out": 20
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:30:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 3,
+      "total_in": 23,
+      "total_out": 20
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:31:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 2,
+      "total_in": 23,
+      "total_out": 21
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:32:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 6,
+      "total_in": 27,
+      "total_out": 21
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:33:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 7,
+      "total_in": 28,
+      "total_out": 21
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:34:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 11,
+      "total_in": 32,
+      "total_out": 21
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:35:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 12,
+      "total_in": 33,
+      "total_out": 21
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:36:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 12,
+      "total_in": 33,
+      "total_out": 21
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:37:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 10,
+      "total_in": 33,
+      "total_out": 23
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:38:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 8,
+      "total_in": 33,
+      "total_out": 25
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:39:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 7,
+      "total_in": 33,
+      "total_out": 26
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:40:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 4,
+      "total_in": 33,
+      "total_out": 29
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:41:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 5,
+      "total_in": 34,
+      "total_out": 29
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:42:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 6,
+      "total_in": 35,
+      "total_out": 29
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:43:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 6,
+      "total_in": 35,
+      "total_out": 29
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:44:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 10,
+      "total_in": 39,
+      "total_out": 29
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:45:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 12,
+      "total_in": 41,
+      "total_out": 29
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:46:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 11,
+      "total_in": 41,
+      "total_out": 30
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:47:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 12,
+      "total_in": 42,
+      "total_out": 30
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:48:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 15,
+      "total_in": 45,
+      "total_out": 30
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:49:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 12,
+      "total_in": 45,
+      "total_out": 33
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:50:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 15,
+      "total_in": 48,
+      "total_out": 33
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:51:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 19,
+      "total_in": 52,
+      "total_out": 33
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:52:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 19,
+      "total_in": 52,
+      "total_out": 33
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:53:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 22,
+      "total_in": 55,
+      "total_out": 33
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:54:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 20,
+      "total_in": 55,
+      "total_out": 35
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:55:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 22,
+      "total_in": 57,
+      "total_out": 35
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:56:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 22,
+      "total_in": 57,
+      "total_out": 35
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:57:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 26,
+      "total_in": 61,
+      "total_out": 35
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:58:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 30,
+      "total_in": 65,
+      "total_out": 35
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 08:59:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 30,
+      "total_in": 65,
+      "total_out": 35
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 34,
+      "total_in": 69,
+      "total_out": 35
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:01:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 31,
+      "total_in": 69,
+      "total_out": 38
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:02:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 33,
+      "total_in": 71,
+      "total_out": 38
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:03:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 29,
+      "total_in": 71,
+      "total_out": 42
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:04:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 33,
+      "total_in": 75,
+      "total_out": 42
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:05:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 37,
+      "total_in": 79,
+      "total_out": 42
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:06:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 34,
+      "total_in": 79,
+      "total_out": 45
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:07:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 34,
+      "total_in": 79,
+      "total_out": 45
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:08:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 36,
+      "total_in": 81,
+      "total_out": 45
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:09:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 38,
+      "total_in": 83,
+      "total_out": 45
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:10:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 42,
+      "total_in": 87,
+      "total_out": 45
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:11:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 40,
+      "total_in": 87,
+      "total_out": 47
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:12:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 44,
+      "total_in": 91,
+      "total_out": 47
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:13:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 44,
+      "total_in": 91,
+      "total_out": 47
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:14:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 44,
+      "total_in": 91,
+      "total_out": 47
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:15:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 47,
+      "total_in": 94,
+      "total_out": 47
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:16:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 48,
+      "total_in": 95,
+      "total_out": 47
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:17:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 49,
+      "total_in": 96,
+      "total_out": 47
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:18:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 52,
+      "total_in": 99,
+      "total_out": 47
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:19:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 53,
+      "total_in": 100,
+      "total_out": 47
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:20:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 53,
+      "total_in": 100,
+      "total_out": 47
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:21:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 50,
+      "total_in": 100,
+      "total_out": 50
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:22:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 54,
+      "total_in": 104,
+      "total_out": 50
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:23:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 57,
+      "total_in": 107,
+      "total_out": 50
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:24:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 58,
+      "total_in": 108,
+      "total_out": 50
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:25:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 61,
+      "total_in": 111,
+      "total_out": 50
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:26:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 61,
+      "total_in": 111,
+      "total_out": 50
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:27:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 64,
+      "total_in": 114,
+      "total_out": 50
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:28:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 65,
+      "total_in": 115,
+      "total_out": 50
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:29:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 65,
+      "total_in": 115,
+      "total_out": 50
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:30:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 66,
+      "total_in": 116,
+      "total_out": 50
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:31:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 62,
+      "total_in": 116,
+      "total_out": 54
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:32:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 60,
+      "total_in": 116,
+      "total_out": 56
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:33:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 64,
+      "total_in": 120,
+      "total_out": 56
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:34:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 63,
+      "total_in": 120,
+      "total_out": 57
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:35:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 65,
+      "total_in": 122,
+      "total_out": 57
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:36:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 63,
+      "total_in": 122,
+      "total_out": 59
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:37:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 64,
+      "total_in": 123,
+      "total_out": 59
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:38:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 63,
+      "total_in": 123,
+      "total_out": 60
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:39:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 64,
+      "total_in": 124,
+      "total_out": 60
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:40:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 64,
+      "total_in": 124,
+      "total_out": 60
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:41:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 64,
+      "total_in": 124,
+      "total_out": 60
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:42:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 66,
+      "total_in": 126,
+      "total_out": 60
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:43:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 70,
+      "total_in": 130,
+      "total_out": 60
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:44:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 69,
+      "total_in": 130,
+      "total_out": 61
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:45:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 68,
+      "total_in": 130,
+      "total_out": 62
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:46:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 66,
+      "total_in": 130,
+      "total_out": 64
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:47:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 67,
+      "total_in": 131,
+      "total_out": 64
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:48:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 64,
+      "total_in": 131,
+      "total_out": 67
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:49:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 66,
+      "total_in": 133,
+      "total_out": 67
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:50:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 67,
+      "total_in": 134,
+      "total_out": 67
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:51:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 65,
+      "total_in": 134,
+      "total_out": 69
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:52:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 65,
+      "total_in": 134,
+      "total_out": 69
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:53:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 62,
+      "total_in": 134,
+      "total_out": 72
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:54:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 63,
+      "total_in": 135,
+      "total_out": 72
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:55:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 64,
+      "total_in": 136,
+      "total_out": 72
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:56:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 67,
+      "total_in": 139,
+      "total_out": 72
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:57:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 65,
+      "total_in": 139,
+      "total_out": 74
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:58:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 65,
+      "total_in": 139,
+      "total_out": 74
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 09:59:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 66,
+      "total_in": 140,
+      "total_out": 74
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 63,
+      "total_in": 140,
+      "total_out": 77
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:01:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 64,
+      "total_in": 141,
+      "total_out": 77
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:02:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 60,
+      "total_in": 141,
+      "total_out": 81
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:03:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 63,
+      "total_in": 144,
+      "total_out": 81
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:04:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 66,
+      "total_in": 147,
+      "total_out": 81
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:05:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 69,
+      "total_in": 150,
+      "total_out": 81
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:06:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 69,
+      "total_in": 150,
+      "total_out": 81
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:07:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 73,
+      "total_in": 154,
+      "total_out": 81
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:08:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 70,
+      "total_in": 154,
+      "total_out": 84
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:09:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 73,
+      "total_in": 157,
+      "total_out": 84
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:10:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 77,
+      "total_in": 161,
+      "total_out": 84
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:11:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 74,
+      "total_in": 161,
+      "total_out": 87
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:12:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 77,
+      "total_in": 164,
+      "total_out": 87
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:13:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 79,
+      "total_in": 166,
+      "total_out": 87
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:14:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 80,
+      "total_in": 167,
+      "total_out": 87
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:15:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 78,
+      "total_in": 167,
+      "total_out": 89
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:16:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 79,
+      "total_in": 168,
+      "total_out": 89
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:17:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 82,
+      "total_in": 171,
+      "total_out": 89
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:18:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 83,
+      "total_in": 172,
+      "total_out": 89
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:19:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 84,
+      "total_in": 173,
+      "total_out": 89
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:20:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 84,
+      "total_in": 173,
+      "total_out": 89
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:21:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 81,
+      "total_in": 173,
+      "total_out": 92
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:22:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 82,
+      "total_in": 174,
+      "total_out": 92
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:23:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 78,
+      "total_in": 174,
+      "total_out": 96
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:24:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 82,
+      "total_in": 178,
+      "total_out": 96
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:25:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 85,
+      "total_in": 181,
+      "total_out": 96
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:26:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 85,
+      "total_in": 181,
+      "total_out": 96
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:27:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 86,
+      "total_in": 182,
+      "total_out": 96
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:28:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 86,
+      "total_in": 182,
+      "total_out": 96
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:29:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 86,
+      "total_in": 182,
+      "total_out": 96
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:30:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 90,
+      "total_in": 186,
+      "total_out": 96
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:31:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 88,
+      "total_in": 186,
+      "total_out": 98
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:32:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 88,
+      "total_in": 186,
+      "total_out": 98
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:33:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 88,
+      "total_in": 186,
+      "total_out": 98
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:34:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 88,
+      "total_in": 186,
+      "total_out": 98
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:35:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 89,
+      "total_in": 187,
+      "total_out": 98
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:36:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 89,
+      "total_in": 187,
+      "total_out": 98
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:37:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 89,
+      "total_in": 187,
+      "total_out": 98
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:38:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 92,
+      "total_in": 190,
+      "total_out": 98
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:39:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 88,
+      "total_in": 190,
+      "total_out": 102
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:40:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 89,
+      "total_in": 191,
+      "total_out": 102
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:41:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 88,
+      "total_in": 191,
+      "total_out": 103
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:42:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 89,
+      "total_in": 192,
+      "total_out": 103
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:43:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 91,
+      "total_in": 194,
+      "total_out": 103
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:44:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 95,
+      "total_in": 198,
+      "total_out": 103
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:45:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 99,
+      "total_in": 202,
+      "total_out": 103
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:46:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 102,
+      "total_in": 205,
+      "total_out": 103
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:47:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 99,
+      "total_in": 205,
+      "total_out": 106
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:48:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 100,
+      "total_in": 206,
+      "total_out": 106
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:49:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 100,
+      "total_in": 206,
+      "total_out": 106
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:50:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 103,
+      "total_in": 209,
+      "total_out": 106
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:51:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 107,
+      "total_in": 213,
+      "total_out": 106
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:52:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 110,
+      "total_in": 216,
+      "total_out": 106
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:53:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 109,
+      "total_in": 216,
+      "total_out": 107
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:54:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 112,
+      "total_in": 219,
+      "total_out": 107
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:55:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 115,
+      "total_in": 222,
+      "total_out": 107
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:56:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 117,
+      "total_in": 224,
+      "total_out": 107
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:57:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 118,
+      "total_in": 225,
+      "total_out": 107
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:58:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 120,
+      "total_in": 227,
+      "total_out": 107
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 10:59:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 120,
+      "total_in": 227,
+      "total_out": 107
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 11:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 117,
+      "total_in": 227,
+      "total_out": 110
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 11:01:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 113,
+      "total_in": 227,
+      "total_out": 114
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 11:02:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 115,
+      "total_in": 229,
+      "total_out": 114
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 11:03:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 119,
+      "total_in": 233,
+      "total_out": 114
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 11:04:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 121,
+      "total_in": 235,
+      "total_out": 114
+    },
+    {
+      "datetime": {
+        "date": "2019-08-27 11:05:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+      },
+      "occupancy": 123,
+      "total_in": 237,
+      "total_out": 114
+    }
+  ]
+}
