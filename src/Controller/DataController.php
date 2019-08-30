@@ -23,7 +23,7 @@ class DataController extends AbstractController
         $closing_m = 0;
         $closing_dt = new \DateTime();
         $closing_dt->setTime($closing_h, $closing_m);
-        $legend_name = "Besetzung";
+        $legend_name = "Belegung";
 
 
         if ($DB) {
@@ -53,7 +53,7 @@ class DataController extends AbstractController
 
         if ($this->isLive($last_av_dt, $now, $closing_dt)) {
 
-            $legend_name = "Besetzung (Live)";
+            $legend_name = "Belegung (Live)";
             $interval = new \DateInterval('PT' . 1 . 'M');
 
             while($last_av_dt <= $closing_dt){

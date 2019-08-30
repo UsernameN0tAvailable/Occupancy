@@ -45,7 +45,7 @@ $(document).ready(function () {
     let currentRange = '2019-07-07 - 2019-07-08';
     let subPage = '/c';
     let currentDate = '';
-    let exp_bib = 'von_roll';
+    let exp_bib = ['von_roll'];
     let exp_int = '1';
 
     // get today's date
@@ -235,8 +235,8 @@ $(document).ready(function () {
 
         let bib_html =
             '<nav><div class="row mt-5 mb-5"><ul id="location_exp" class="container btn-group col-lg-5 col-md-5" >\n' +
-            '<li class="btn btn-secondary" value="bib von_roll">Von Roll</li>' +
-            '<li class="btn btn-secondary active" value="bib bto"> BTO</li>' +
+            '<li class="btn btn-secondary active" value="bib von_roll">Von Roll</li>' +
+            '<li class="btn btn-secondary " value="bib bto"> BTO</li>' +
             '<li class="btn btn-secondary" value="bib jbb"> JBB</li>' +
             '<li class="btn btn-secondary" value="bib bmu_og"> BMÜ OG</li>' +
             '<li class="btn btn-secondary" value="bib bmu_ug"> BMÜ UG</li>' +
@@ -253,7 +253,7 @@ $(document).ready(function () {
             '<li class="btn btn-secondary" value="int 60"> 60</li>' +
             '</ul>' +
             '</div> <div class="container mt-5 mb-5 text-center" style="width: 400px">\n' +
-            '<button id="export_btn" type="button" class="btn btn-primary" >Export</button>\n' +
+            '<button type="button" id="export_btn" class="btn btn-primary" >Export</button>\n' +
             '</div>';
 
         if (isGraph) {
@@ -279,7 +279,13 @@ $(document).ready(function () {
     //export button
     $(document).on('click', '.btn-primary' , function () {
         let range = currentRange.split(' - ');
-        let exp_url = '/export/' + exp_bib + '/' + range[0] + '/' + range[1] + '/' + exp_int;
+        let exp_url = '/export/';
+
+        exp_bib.forEach(function (bib) {
+            exp_url += (bib + ',');
+        });
+        exp_url = exp_url.substring(0, exp_url.length - 1);
+        exp_url += '/' + range[0] + '/' + range[1] + '/' + exp_int;
         location.href = exp_url;
     });
 
@@ -293,7 +299,14 @@ $(document).ready(function () {
         let value = $(this).attr('value').split(' ')[1];
 
         if(cat === 'bib'){
-            exp_bib = value;
+            if(exp_bib.includes(value)){
+                var index = exp_bib.indexOf(value);
+                if (index > -1) {
+                    exp_bib.splice(index, 1);
+                }
+            }else{
+                exp_bib.push(value);
+            }
         }else if(cat === 'int'){
             exp_int = value;
         }else{
@@ -306,15 +319,12 @@ $(document).ready(function () {
             let value = $(this).attr('value').split(' ')[1];
             $(this).removeClass('active');
 
-            if(value === exp_int || value === exp_bib){
+            if(value === exp_int || exp_bib.includes(value)){
                 $(this).addClass('active');
             }
         });
 
     });
-
-
-
 
     $("#picker").change(function () {
         switch (subPage) {
