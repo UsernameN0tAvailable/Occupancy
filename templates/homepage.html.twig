@@ -19,16 +19,19 @@
         <li id="c" class="nav-item table-active"><a class="nav-link" href="/c">Kalender</a></li>
         <li id="t" class="nav-item"><a class="nav-link" href="/t">Trends</a></li>
         <li id="d" class="nav-item"><a class="nav-link" href="/d">Wochentage</a></li>
+        <li id="e" class="nav-item"><a class="nav-link" href="/e">Export</a></li>
     </ul>
 </nav>
 
-<div class="container mt-5 mb-5" style="width: 400px">
-    <input type="text" id="picker" class="form-control" autocomplete="off" readonly="readonly">
+<div class="container" id="bib"></div>
+
+<div class="container-fluid mt-5 mb-4 col-lg-5 col-md-5" style="width: 400px">
+    <input type="text" id="picker" class="form-control" style="text-align: center" autocomplete="off" readonly="readonly">
 </div>
 
 
 <div class="container">
-    <div id="main_graph" class="app-chartist" style="height: 500px;"
+    <div id="main_graph" class="app-chartist text-center" style="height: 500px;"
          data-option="graphA"></div>
 </div>
 

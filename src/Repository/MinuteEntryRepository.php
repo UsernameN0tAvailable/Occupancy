@@ -38,6 +38,21 @@ class MinuteEntryRepository extends ServiceEntityRepository
         return $stmt->fetchAll();
     }
 
+    public function everythingByLocationInRange(Location $location, \DateTime $from, \DateTime $to){
+
+        $conn = $this->getEntityManager()->getConnection();
+
+        $sql = 'SELECT date_time AS time, occupancy, total_in, total_out   
+              FROM minute_entry
+              WHERE location_id = :location_id AND date_time BETWEEN :from AND :to';
+
+
+        $stmt = $conn->prepare($sql);
+        $stmt->execute(array('location_id' => $location->getId(),
+            'from' => $from->format('Y-m-d H:i:s'),
+            'to' => $to->format('Y-m-d H:i:s')));
+        return $stmt->fetchAll();
+    }
 
     public function findByLocationInRange(Location $location, \DateTime $from, \DateTime $to)
     {
